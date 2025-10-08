@@ -1,12 +1,74 @@
-Welcome to your new TanStack app! 
+# Create Mix TanStack Start
 
-# Getting Started
+CLI to scaffold Mix + TanStack Start projects with interactive templates.
 
-To run this application:
+## Quick Start
+
+Create a new project using the CLI:
+
+```bash
+npm create mix-tstart@latest
+# or
+npx create-mix-tstart@latest
+# or
+pnpm create mix-tstart@latest
+# or
+bun create mix-tstart@latest
+```
+
+You can also specify a project name directly:
+
+```bash
+npm create mix-tstart@latest my-app
+```
+
+The CLI will prompt you to:
+1. Choose a template (base or examples)
+2. Select a package manager (bun, npm, pnpm, yarn)
+3. Install dependencies automatically
+
+## Templates
+
+- **Base** - Minimal TanStack Start starter with Shadcn/ui components
+- **Portfolio Analyzer** (coming soon) - Full example with file upload, AI streaming, and visualizations
+
+## Development
+
+If you're running this locally (for development):
 
 ```bash
 bun install
-bun --bun run start
+bun run dev
+```
+
+## Testing CLI Locally
+
+To test the CLI locally before publishing:
+
+```bash
+npm link
+# Now you can run the CLI from anywhere
+create-mix-tstart my-test-app
+```
+
+To unlink:
+
+```bash
+npm unlink -g create-mix-tstart
+```
+
+## Publishing
+
+To publish this package to npm:
+
+1. Update version in `package.json`
+2. Login to npm: `npm login`
+3. Publish: `npm publish`
+
+Users can then use it with:
+
+```bash
+npm create mix-tstart@latest
 ```
 
 # Building For Production
