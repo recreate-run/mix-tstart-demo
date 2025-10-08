@@ -1,0 +1,5 @@
+!!! =================================================================
+11:43:22 SHOREMAN STARTED
+!!! =================================================================
+11:43:22 frontend	| 'bun run tauri dev' started with pid 79128
+11:43:22 frontend	| error: Script not found "tauri"

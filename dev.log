@@ -1,0 +1,19 @@
+!!! =================================================================
+11:43:27 SHOREMAN STARTED
+!!! =================================================================
+11:43:27 frontend	| 'bun run dev' started with pid 79528
+11:43:27 frontend	| $ vite dev --port 3000
+11:43:29 frontend	| 11:43:29 AM [vite] [38;2;40;180;170m⬥ Netlify[39m Environment loaded
+11:43:29 frontend	| 11:43:29 AM [vite] [38;2;40;180;170m⬥ Netlify[39m Middleware loaded. Emulating features: blobs, edgeFunctions, environmentVariables, functions, geolocation, headers, images, redirects, static.
+11:43:29 frontend	| 11:43:29 AM [vite] [38;2;40;180;170m⬥ Netlify[39m 💭 Linking this project to a Netlify site lets you deploy your site, use any environment variables defined on your team and site and much more. Run [96mnpx netlify init[39m to get started.
+11:43:29 frontend	| 11:43:29 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+11:43:29 frontend	| 
+11:43:29 frontend	|   VITE v7.1.9  ready in 2140 ms
+11:43:29 frontend	| 
+11:43:29 frontend	|   ➜  Local:   http://localhost:3000/
+11:43:29 frontend	|   ➜  Network: use --host to expose
+11:43:31 frontend	| [vite] connected.
+11:44:54 frontend	| 11:44:54 AM [vite] (client) hmr update /src/styles.css?direct
+11:45:46 frontend	| 11:45:46 AM [vite] (client) hmr update /src/styles.css?direct
+11:46:59 frontend	| 11:46:59 AM [vite] (client) hmr update /src/styles.css?direct
+11:47:08 frontend	| 11:47:08 AM [vite] (client) hmr update /src/styles.css?direct

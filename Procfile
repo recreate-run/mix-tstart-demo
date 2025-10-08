@@ -1,0 +1,2 @@
+frontend: bun run dev
+
